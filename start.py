@@ -48,4 +48,5 @@ train_df = pd.read_csv(os.path.join(dir_path, '/dataset/train.csv'))
 test_df = pd.read_csv(os.path.join(dir_path, '/dataset/test.csv'))
 combine = [train_df, test_df]
 print(train_df.head)
+print("123")
 
